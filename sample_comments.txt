@@ -1,0 +1,87 @@
+CUSTOMER REVIEW CLASSIFIER - MANUAL TEST SAMPLES
+================================================
+15 fictional English customer reviews for testing the Streamlit app.
+Copy only the review paragraph under each number into the app.
+Expected labels are at the bottom so you can test without seeing them first.
+
+REVIEW 01
+I absolutely love this dress. The fabric is soft, the color is beautiful, and it fits perfectly. I have already received several compliments and would happily recommend it to my friends.
+
+------------------------------------------------------------
+REVIEW 02
+These jeans looked great online, but the actual material feels cheap and uncomfortable. The stitching came apart after one wash. I regret buying them and would not recommend this product.
+
+------------------------------------------------------------
+REVIEW 03
+I wasn't sure about ordering this blouse because of the mixed reviews. However, it looks even better in person, and the size is exactly right. I am very happy with my purchase.
+
+------------------------------------------------------------
+REVIEW 04
+The jacket has a nice design, but the sleeves are much too short and the zipper keeps getting stuck. I wanted to like it, but I will be returning it.
+
+------------------------------------------------------------
+REVIEW 05
+The sweater is slightly thinner than I expected, but it is comfortable and looks elegant with jeans. For the price, I think it is a good purchase and would recommend it.
+
+------------------------------------------------------------
+REVIEW 06
+I loved the color when I opened the package. Unfortunately, the dress shrank badly after the first wash, even though I followed the care instructions. I cannot wear it anymore.
+
+------------------------------------------------------------
+REVIEW 07
+These leggings are incredibly comfortable. They stay in place during exercise, the fabric stretches well, and they are not see-through. I plan to buy another pair.
+
+------------------------------------------------------------
+REVIEW 08
+This top is not terrible, but it is not worth the price. The fabric wrinkles easily, and the fit is awkward around the shoulders. I would choose a different brand next time.
+
+------------------------------------------------------------
+REVIEW 09
+The dress arrived a day late, and the packaging was damaged. Still, the dress itself fits beautifully and feels well made. I would buy it again despite the delivery problem.
+
+------------------------------------------------------------
+REVIEW 10
+I really wanted to love these pants because the style is gorgeous. Sadly, the waistband is extremely tight while the legs are far too loose. The sizing makes them impossible to wear comfortably.
+
+------------------------------------------------------------
+REVIEW 11
+At first, I thought this coat might be too heavy. After wearing it outside, I realized it keeps me warm without feeling bulky. The quality is excellent, and I recommend it.
+
+------------------------------------------------------------
+REVIEW 12
+The fabric feels soft and the pattern is lovely, but the buttons started falling off on the first day. I expected better quality and would not buy this shirt again.
+
+------------------------------------------------------------
+REVIEW 13
+I usually dislike oversized shirts, so I was surprised by how much I liked this one. It drapes nicely, feels breathable, and works well with different outfits. Definitely a keeper.
+
+------------------------------------------------------------
+REVIEW 14
+The photos made this skirt look luxurious, but it arrived with uneven seams and a strange smell. Customer service was helpful, yet the product itself was disappointing. I do not recommend it.
+
+------------------------------------------------------------
+REVIEW 15
+I would not call these shoes perfect: the first day was uncomfortable, and they needed some breaking in. Now they fit well and are my favorite pair for everyday wear. Overall, I recommend them.
+
+
+============================================================
+EXPECTED LABELS - CHECK AFTER TESTING
+============================================================
+These labels express the intended recommendation in each fictional review.
+They are NOT predictions made by your model.
+
+01 - Recommended (1)       | Positive
+02 - Not Recommended (0)   | Negative
+03 - Recommended (1)       | Positive with initial doubt
+04 - Not Recommended (0)   | Mixed, negative conclusion
+05 - Recommended (1)       | Mixed, positive conclusion
+06 - Not Recommended (0)   | Mixed, negative conclusion
+07 - Recommended (1)       | Positive
+08 - Not Recommended (0)   | Mixed, negative conclusion
+09 - Recommended (1)       | Mixed, positive conclusion
+10 - Not Recommended (0)   | Mixed, negative conclusion
+11 - Recommended (1)       | Positive with initial doubt
+12 - Not Recommended (0)   | Mixed, negative conclusion
+13 - Recommended (1)       | Negation followed by praise
+14 - Not Recommended (0)   | Negative, with positive service note
+15 - Recommended (1)       | Mixed, positive conclusion

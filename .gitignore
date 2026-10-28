@@ -1,0 +1,100 @@
+# --------------------------------------------------
+# Python: caches, compiled files, and packaging
+# --------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# --------------------------------------------------
+# Virtual environments and local configuration
+# --------------------------------------------------
+.venv/
+venv/
+env/
+ENV/
+.python-version
+.env
+.env.*
+!.env.example
+*.local
+
+# --------------------------------------------------
+# Jupyter and editor files
+# --------------------------------------------------
+.ipynb_checkpoints/
+.vscode/
+.idea/
+*.code-workspace
+
+# --------------------------------------------------
+# Raw and processed datasets (download from Kaggle)
+# --------------------------------------------------
+data/**/*.csv
+data/**/*.tsv
+data/**/*.xlsx
+data/**/*.xls
+data/**/*.parquet
+data/**/*.feather
+data/**/*.pkl
+data/**/*.pickle
+data/**/*.zip
+data/**/*.gz
+data/raw/
+data/interim/
+data/processed/
+data/external/
+
+# --------------------------------------------------
+# Experiments, temporary exports, logs
+# --------------------------------------------------
+logs/
+outputs/
+artifacts/
+optuna_studies/
+mlruns/
+wandb/
+*.log
+*.tmp
+*.bak
+
+# --------------------------------------------------
+# Model artifacts
+# Keep ONLY the selected inference model and metadata
+# in Git for a directly runnable demo.
+# --------------------------------------------------
+models/*
+!models/customer_review_classifier.joblib
+!models/model_metadata.json
+!models/.gitkeep
+
+# --------------------------------------------------
+# Operating system and credentials
+# --------------------------------------------------
+.DS_Store
+Thumbs.db
+Desktop.ini
+*.pem
+*.key
+*.p12
+*.pfx
+
+# --------------------------------------------------
+# Never ignore these project files
+# --------------------------------------------------
+!README.md
+!requirements.txt
+!.streamlit/config.toml
+
+# Local notes
+terminal_commands.txt
